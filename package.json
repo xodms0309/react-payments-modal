@@ -1,6 +1,6 @@
 {
   "name": "tami-modal",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "simple modal and bottomsheet library for React",
   "keywords": [
     "modal"
@@ -37,10 +37,12 @@
     "@types/react": "^18.2.3",
     "@types/react-dom": "^18.2.3",
     "@types/styled-components": "^5.1.26",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "babel-loader": "^9.1.2",
-    "html-webpack-plugin": "^5.5.1",
+    "style-loader": "^3.3.2",
     "ts-loader": "^9.4.2",
     "typescript": "^5.0.4",
     "webpack": "^5.82.0",

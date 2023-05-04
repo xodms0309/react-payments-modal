@@ -17,6 +17,10 @@ module.exports = {
         test: /\.tsx?$/,
         use: ['babel-loader', 'ts-loader'],
       },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
     ],
   },
 
@@ -24,4 +28,13 @@ module.exports = {
     path: path.join(__dirname, '/dist'),
     filename: 'index.js',
   },
+
+  plugins: [
+    new webpack.ProvidePlugin({
+      React: 'react',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+    }),
+  ],
 };
