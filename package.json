@@ -1,6 +1,6 @@
 {
   "name": "tami-modal",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "simple modal and bottomsheet library for React",
   "keywords": [
     "modal"
