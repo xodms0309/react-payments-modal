@@ -1,11 +1,12 @@
 {
   "name": "tami-modal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple modal and bottomsheet library for React",
   "keywords": [
     "modal"
   ],
-  "module": "dist/index.js",
+  "module": "dist/index.jsx",
+  "main": "dist/index.jsx",
   "types": "dist/index.d.ts",
   "browserslist": [
     ">0.2%",
