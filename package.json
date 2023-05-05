@@ -1,12 +1,12 @@
 {
   "name": "tami-modal",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "simple modal and bottomsheet library for React",
   "keywords": [
     "modal"
   ],
-  "module": "dist/index.jsx",
-  "main": "dist/index.jsx",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "browser": "./browser/specific/main.js",
   "browserslist": [
@@ -20,8 +20,7 @@
     "dev": "webpack serve --mode development --open --hot",
     "start": "webpack-dev-server --progress --mode development",
     "build": "GENERATE_SOURCEMAP=false webpack --progress --mode production",
-    "prepublish": "rm -rf dist && mkdir dist && tsc",
-    "publish:npm": "rm -rf dist && mkdir dist && babel src -d dist --copy-files && tsc"
+    "publish:npm": "rm -rf dist && mkdir dist && tsc"
   },
   "dependencies": {
     "styled-components": "^5.3.10"

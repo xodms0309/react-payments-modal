@@ -1,17 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "target": "es6",
     "module": "ESNext",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "jsx": "preserve",
-    "noEmit": false,
+    "lib": ["es6", "dom"],
     "declaration": true,
-    "baseUrl": "./",
-    "outDir": "./dist"
+    "outDir": "dist",
+    "strict": true,
+    "jsx": "react-jsx"
   },
-  "exclude": ["node_modules", "dist"],
-  "include": ["**/*.ts", "**/*.tsx"]
+  "include": ["src/index.tsx"]
 }
