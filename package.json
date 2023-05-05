@@ -52,12 +52,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xodms0309/react-payments-modal.git"
+    "url": "git+https://github.com/xodms0309/tami-modal.git"
   },
   "author": "Taeeun Kim",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xodms0309/react-payments-modal/issues"
+    "url": "https://github.com/xodms0309/tami-modal/issues"
   },
-  "homepage": "https://github.com/xodms0309/react-payments-modal#readme"
+  "homepage": "https://github.com/xodms0309/tami-modal#readme"
 }
