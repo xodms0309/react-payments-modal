@@ -16,7 +16,7 @@ const Modal = (props: PropsWithChildren<ModalProps>) => {
       <>
         <GlobalStyle />
         <Styled.BackDrop onClick={onCloseModal} />
-        <Styled.Wrapper modalLocation={modalLocation ?? 'center'}>
+        <Styled.Wrapper modalLocation={modalLocation ?? 'center'} role='dialog'>
           {children}
         </Styled.Wrapper>
       </>
